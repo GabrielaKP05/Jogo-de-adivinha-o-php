@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: f;
+    src: url(font/Fun\ Games.ttf)
+}
+
+@font-face {
+    font-family: f2;
+    src: url(font/Gameplaya.ttf)
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/81bb4b165684019.640b6038d133e.gif);
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    margin-top: 5%;
+    font-family: f2;
+    font-size: 4.4em;
+    color: rgba(216, 220, 240, 0.966);
+    background-color: rgb(0, 0, 0);
+    border-radius: 5%;
+}
+
+.formulario{
+    font-size: 2.2em;
+    background-color: rgba(0, 0, 0, 0.603);
+    padding: 5%;
+    margin: 5%;
+    border-radius: 3%;
+    color: rgba(216, 220, 240, 0.966);
+
+}
+
+input{
+    border-radius: 10px;
+    outline: 2px solid #4400fe;
+    border: 0;
+    font-family: -apple-system, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #e2e2e2;
+    outline-offset: 3px;
+    padding: 10px 1rem;
+}
+
+footer{
+    margin-top: 152px;
+    background-color: black;
+    color: #e2e2e2;
+}
+
+@media screen {
+    body{
+        background-image: url(https://preview.redd.it/the-first-gif-is-a-phone-wallpaper-i-did-for-practice-a-v0-om2ad85kwf5b1.gif?width=576&auto=webp&s=6fe9f6a33e165e108f6cfa9a8e3e6a6fd3e37bee);
+        margin: 7%;
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    h1{
+        margin-top: 33%;
+        font-size: 3.3em;
+        padding-right: 8%;
+    }
+    h1, h3{
+        background-color: rgba(255, 255, 255, 0);
+        color: #4400fea8;
+
+    }
+    footer{
+        margin-top: 10%;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    
+}
+
